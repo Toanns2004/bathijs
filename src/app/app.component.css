@@ -1,9 +1,50 @@
-.content{
-  width: 200px;
-  height: 400px;
-}
-.nav-item{
-  background-color: #c9c2c2;
-  border: 1px solid black;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
+.container{
+  margin-left: 200px;
+}
+.content {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  left: 0;
+}
+nav ul{
+  background: #e9e9ea;
+  width: 100%;
+  list-style: none;
+}
+nav ul li{
+  line-height: 60px;
+  border-bottom: 1px solid #333036;
+}
+nav ul li a{
+  position: relative;
+  color: #050505;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+nav ul li a:hover{
+  color: #050505;
+  background: #3b1fe7;
+}
+nav ul ul li{
+  line-height: 42px;
+  border-bottom: none;
+}
+nav ul ul li a{
+  font-size: 17px;
+  color: black;
+  padding-left: 50px;
+}
+
+

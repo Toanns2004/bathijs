@@ -1,27 +1,30 @@
-<nav class="container">
-  <div class="content">
-      <ul>
-        <h3 class="nav-item">
-          <a class="nav-link" routerLink="/">Favorites</a>
-        </h3>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/inbox">Inbox</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/sent items">Sent items</a>
-        </li>
-      </ul>
-      <ul><h3>John</h3>
-        <li>inbox</li>
-        <li>Drafts</li>
-        <li>Deleted items</li>
-        <li>sent items</li>
-        <li>Outbox</li>
-      </ul>
+<header>
+  <div class="container">
   </div>
+</header>
+<nav class="content">
+  <ul>
+    <li>
+      <a routerLink="/" class="feat-btn">Favorites</a>
+      <ul class="feat-show">
+        <li><a routerLink="/inbox">Inbox</a> </li>
+        <li><a routerLink="/sent items">Sent Items</a> </li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="/john" class="serv-btn">John</a>
+      <ul class="feat-show">
+        <li><a routerLink="/inbox">Inbox</a></li>
+        <li><a routerLink="/drafts">Drafts</a></li>
+        <li><a routerLink="/deleted">Deleted Items</a></li>
+        <li><a routerLink="/sent items">Sent Items</a></li>
+        <li><a routerLink="/outbox">Outbox</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 <section>
   <div class="container">
-    <router-outlet></router-outlet>
+      <router-outlet></router-outlet>
   </div>
 </section>
