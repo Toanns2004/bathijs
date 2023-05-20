@@ -6,7 +6,10 @@ h5{
   color: dimgrey;
 }
 .card-body{
-  box-sizing: border-box;
+  display: flex;
 
+}
+.item{
+  padding-left: 10px;
 }
 

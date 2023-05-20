@@ -9,7 +9,7 @@ import {InboxComponent} from "./inbox/inbox.component";
 import {DraftsComponent} from "./drafts/drafts.component";
 import {OutboxComponent} from "./outbox/outbox.component";
 import {JohnComponent} from "./john/john.component";
-
+import {DeletedComponent} from "./deleted/deleted.component";
 
 const appRoutes: Routes=[
   {path: '',component:FavoritesComponent},
@@ -17,12 +17,13 @@ const appRoutes: Routes=[
   {path: 'inbox',component: InboxComponent},
   {path: 'drafts',component: DraftsComponent},
   {path: 'outbox',component: OutboxComponent},
-  {path: 'john',component: JohnComponent}
+  {path: 'john',component: JohnComponent},
+  {path: 'deleted',component:DeletedComponent},
 ]
 @NgModule({
   declarations: [
     AppComponent,SentitemsComponent,FavoritesComponent,InboxComponent,
-    DraftsComponent,OutboxComponent,JohnComponent,
+    DraftsComponent,OutboxComponent,JohnComponent,DeletedComponent,
   ],
   imports: [
     BrowserModule,

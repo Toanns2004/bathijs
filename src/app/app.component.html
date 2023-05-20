@@ -5,14 +5,21 @@
 <nav class="content">
   <ul>
     <li>
-      <a routerLink="/" class="feat-btn">Favorites</a>
+      <a routerLink="/" class="feat-btn"><i class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      </svg></i>Favorites</a>
       <ul class="feat-show">
         <li><a routerLink="/inbox">Inbox</a> </li>
         <li><a routerLink="/sent items">Sent Items</a> </li>
       </ul>
     </li>
     <li>
-      <a routerLink="/john" class="serv-btn">John</a>
+      <div class="icon">
+
+        <a routerLink="/john" class="feat-btn"><i class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg></i>John</a>
+      </div>
       <ul class="feat-show">
         <li><a routerLink="/inbox">Inbox</a></li>
         <li><a routerLink="/drafts">Drafts</a></li>
@@ -23,6 +30,7 @@
     </li>
   </ul>
 </nav>
+
 <section>
   <div class="container">
       <router-outlet></router-outlet>

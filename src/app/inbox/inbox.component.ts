@@ -4,6 +4,5 @@ import {Component} from "@angular/core";
   selector: 'app-inbox',
   templateUrl:'./inbox.component.html',
 })
-export class InboxComponent{
-
+export class InboxComponent {
 }

@@ -2,16 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 .container{
-  margin-left: 200px;
+  margin-left: 250px;
 }
 .content {
   position: fixed;
-  width: 200px;
-  height: 100%;
+  top: 0;
   left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #e9e9ea;
+}
+.icon{
+  margin-right: 5px;
+}
+.feat-btn{
+  height: 55px;
+  padding-right: 10px;
 }
 nav ul{
   background: #e9e9ea;
@@ -19,27 +27,30 @@ nav ul{
   list-style: none;
 }
 nav ul li{
-  line-height: 60px;
-  border-bottom: 1px solid #333036;
+  line-height: 50px;
+  border-bottom: 1px solid #b7b7b9;
+
 }
 nav ul li a{
   position: relative;
   color: #050505;
   text-decoration: none;
   font-size: 18px;
-  padding-left: 20px;
+  padding-left: 10px;
   font-weight: 500;
   display: block;
   width: 100%;
-  border-left: 3px solid transparent;
+  border-left: 1px solid transparent;
+
 }
 nav ul li a:hover{
   color: #050505;
   background: #3b1fe7;
 }
 nav ul ul li{
-  line-height: 42px;
+  line-height: 50px;
   border-bottom: none;
+
 }
 nav ul ul li a{
   font-size: 17px;
