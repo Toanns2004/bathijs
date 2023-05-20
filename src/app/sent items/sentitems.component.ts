@@ -4,6 +4,6 @@ import {Component} from "@angular/core";
   selector: 'app-sent',
   templateUrl: './sentitems.component.html',
 })
-export class SentitemsComponent{
+export class SentitemsComponent {
 
 }

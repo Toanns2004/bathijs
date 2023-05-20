@@ -4,6 +4,6 @@ import {Component} from "@angular/core";
   selector: 'app-deleted',
   templateUrl: './deleted.component.html',
 })
-export class DeletedComponent{
+export class DeletedComponent {
 
 }

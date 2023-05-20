@@ -20,7 +20,7 @@ const appRoutes: Routes=[
   {path: 'john',component: JohnComponent},
   {path: 'deleted',component:DeletedComponent},
 ]
-@NgModule({
+@NgModule( {
   declarations: [
     AppComponent,SentitemsComponent,FavoritesComponent,InboxComponent,
     DraftsComponent,OutboxComponent,JohnComponent,DeletedComponent,

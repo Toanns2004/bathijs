@@ -5,4 +5,5 @@ import {Component} from "@angular/core";
   templateUrl:'./inbox.component.html',
 })
 export class InboxComponent {
+
 }

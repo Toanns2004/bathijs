@@ -4,6 +4,6 @@ import {Component} from "@angular/core";
   selector:'app-outbox',
   templateUrl: './outbox.component.html'
 })
-export class OutboxComponent{
+export class OutboxComponent {
 
 }
